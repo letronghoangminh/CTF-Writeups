@@ -1,0 +1,102 @@
+{
+  "main": {
+    "id": "5a4ca35980ed087c",
+    "type": "split",
+    "children": [
+      {
+        "id": "1d7a6c49363d51e2",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Web/LITCTF 2021 - Alex Fan Club API (500)/README.md.md",
+            "mode": "preview"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "27d0ef0ecfada368",
+    "type": "split",
+    "children": [
+      {
+        "id": "d490afe328e72d70",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8e88e5caad6921de",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "246df275a1ae68d7",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "328dae477fe9efdb",
+    "type": "split",
+    "children": [
+      {
+        "id": "eba51a7f7fa80812",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "90b919c56b1a8086",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Web/LITCTF 2021 - Alex Fan Club API (500)/README.md.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "1d7a6c49363d51e2",
+  "lastOpenFiles": [
+    "Web/LITCTF 2021 - Alex Fan Club API (500)/README.md.md",
+    "Web/LITCTF 2021 - Alex Fan Club API (500)/Images/Pasted image 20210718144143.png",
+    "Pasted image 20210718150806.png",
+    "Pasted image 20210718150731.png",
+    "Pasted image 20210718150521.png",
+    "Pasted image 20210718150501.png",
+    "Pasted image 20210718150124.png",
+    "Pasted image 20210718150035.png",
+    "Pasted image 20210718145830.png",
+    "Pasted image 20210718145729.png"
+  ]
+}
