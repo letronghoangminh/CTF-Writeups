@@ -1,6 +1,5 @@
 
 ## This is my writeup of the 250 points challenge 'Destuctoid' in Imaginary CTF 2021. 
-### And btw, our team (thehackerscrew) won this CTF :DD
 
 ### This is the challenge's description
 
