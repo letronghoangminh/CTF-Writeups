@@ -49,6 +49,7 @@ https://www.google.com/maps/place/C%C3%B4ng+vi%C3%AAn+K%E1%BB%B3+Quan/@16.098821
 ![image](https://user-images.githubusercontent.com/88171165/127584976-79fa9f33-64f2-4247-b4e3-b9d676e65b27.png)
 
 ## This is the first chall i wrote, so I definitely messed up many things. If you have something for improving it, you can dm me psycholog1st#2222. Thanks for playing and reading =))
+## Btw, give me a star if you find this writeup helpful xD
 
 ## Cre: psycholog1st
 
