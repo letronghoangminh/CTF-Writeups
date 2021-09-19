@@ -50,7 +50,7 @@ And this about how to publish a npm module: https://zellwk.com/blog/publish-to-n
 
 So i created a npm package with the name "calc_ph6avsgeed" and version: 1.0.1 and the "preinstall" script to list the file in current folder.
 
-Then publishing it to npm publib registry.
+Then publishing it to npm public registry.
 
 ![image](https://user-images.githubusercontent.com/50044415/133912783-0e5f3719-c32a-43e3-88b1-99e7a57b4b9a.png)
 
@@ -69,7 +69,7 @@ And launch the test, then view the log:
 ![image](https://user-images.githubusercontent.com/50044415/133912843-0b88fc3a-02b4-423d-b66e-a0840326661e.png)
 
 
-P/s: Dont't forget to give me a star if you find it's usefule xD
+P/s: Dont't forget to give me a star if you find it's useful xD
 
 
 
