@@ -69,10 +69,7 @@ And launch the test, then view the log:
 ![image](https://user-images.githubusercontent.com/50044415/133912843-0b88fc3a-02b4-423d-b66e-a0840326661e.png)
 
 
-
-
-
-
+P/s: Dont't forget to give me a star if you find it's usefule xD
 
 
 
